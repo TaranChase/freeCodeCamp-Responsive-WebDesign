@@ -10,7 +10,7 @@
     <!--Most important content inside this element-->
     <!--Unique content must be placed in this element and cannot be used anywhere else in the document-->
     <!--Content within this element are nested. Hence called nested elements -->    
-        <section>
+        <section class="section 1">
             <!--A section element defines sections in documents. -->
             <h1>Welcome to my Website!</h1> <!--Main heading to be used once per page-->
             <h2>My name is Taran.</h2> <!--This is a subheading that can be used multiple times per page-->
@@ -22,7 +22,7 @@
             <!--This is a comment. It allows you to leave messages without affecting browser display -->
         </section>
 
-        <section>
+        <div id="lists">
             <h3>Lists</h3>
             <p>They are 2 types of lists.</p>
             <p>Ordered:</p>
@@ -38,14 +38,26 @@
                 <li>Photography</li>
                 <li>Reading</li>
             </ul>
+        </div>
 
-            <figure>
+        <figure>
             <!--Represents self-contained content. Allows an image to be assocaited with a caption-->
-                <img src="./images/Gemini_Generated_Image_4z6n5l4z6n5l4z6n (1).png" alt="gemini-generated">
+            <img src="./images/Gemini_Generated_Image_4z6n5l4z6n5l4z6n (1).png" alt="gemini-generated">
                 <!--figcaption adds a caption to describe the image contained within the figure element-->
                 <!--<strong> boldens text-->
-                <figcaption>A <strong>funny</strong> Gemini generated image</figcaption>    
-            </figure>
+            <figcaption>A <strong>funny</strong> Gemini generated image</figcaption>    
+        </figure>
+
+        <section id="HTML Entities">
+            <p>They are 3 types of HTML Entities.</p>
+            <ul>
+                <li>Named References</li>
+                    <p>This is an example of &lt;img /&gt; element created using the named reference entity</p>
+                <li>Decimal Numeric References</li>
+                    <p>This is an example of &#60; tag created using the decimal numeric reference entity </p>
+                <li>Hexadecimal Numeric Reference</li>
+                    <p>This is an example of &#x3c; tag using the hexadecimal reference entity </p>
+            </ul>
         </section>
         
     </main>
